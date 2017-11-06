@@ -19,8 +19,8 @@ public class UITests {
                 .openMainPage()
                 .openRubberDucksPage()
                 .getDuckNames();
-//
-//        duckNamesFromUI.forEach(name -> System.out.println(name));
+
+       duckNamesFromUI.forEach(name -> System.out.println(name));
 
         List<String> duckNamesFromDB = DBHelper.getDuckNames();
 
